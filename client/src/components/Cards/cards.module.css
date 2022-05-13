@@ -1,0 +1,57 @@
+.containerGlobal {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 9rem;
+}
+
+.containerPaginate {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerButtons {
+  margin: auto;
+}
+
+.btnBack,
+.btnNext {
+  background: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: firebrick;
+}
+
+.btnPage {
+  width: 2rem;
+  height: 2rem;
+  background: hsl(200, 95%, 60%);
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem 0.1rem;
+  transition: all 0.3s linear;
+  color: white;
+}
+
+.btnON {
+  width: 2rem;
+  height: 2rem;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background: hsl(210, 90%, 40%);
+  margin: 0.5rem 0.1rem;
+  transition: all 0.3s linear;
+  color: whitesmoke;
+}

@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  height: 75vh;
+  margin: auto;
+  border-radius: 25px;
+}
+.text {
+  color: #ffffff5d;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+.text span {
+  color: crimson;
+  font-size: 8rem;
+}
+
+.link {
+  text-decoration: none;
+}
+.link h2 {
+  background-color: #ffffff5d;
+  text-decoration: none;
+  padding: 0.8rem, 3rem;
+  color: crimson;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.link h2:hover {
+  background-color: whitesmoke;
+  border: 5px solid #ffffff5d;
+  padding: 0.8rem 3.2rem;
+  color: #0dbce8;
+  font-size: 2rem;
+  border-radius: 10px;
+}

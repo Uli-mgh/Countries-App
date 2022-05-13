@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #34495e;
+  margin-top: 3.5rem;
+}
+
+.filtros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+.container form {
+  padding-right: 3rem;
+}
+.inputBtn {
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  border: transparent;
+  font-size: 1rem;
+  font-weight: 800;
+  color: black;
+  padding: 0.2rem 1rem;
+}
+.inputSearch {
+  margin-right: 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  background-color: #ecf0f1;
+  color: black;
+}

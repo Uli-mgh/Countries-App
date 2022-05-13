@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  justify-content: space-around;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/Volcan-Parinacota.jpg");
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(89, 30, 250, 0);
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 70%;
+  border-radius: 2rem;
+  padding: 2rem 0rem;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.containerInput label {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5rem;
+  margin-left: 3rem;
+  font-weight: 600;
+}
+.containerInput input {
+  margin-left: 3rem;
+  width: 50%;
+}
+.containerInput select {
+  margin-left: 3rem;
+  width: 50%;
+}
+.containerInput textarea {
+  margin-left: 3rem;
+  width: 50%;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2rem;
+}
+.checkbox label {
+  display: flex;
+  margin-left: 0.5rem;
+}
+.checkbox input {
+  margin-left: 1rem;
+  width: 20px;
+  height: 20px;
+}
+
+.userRequest {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.userRequest h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem;
+  color: crimson;
+}
+.userRequest h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+
+  color: crimson;
+}
+.userRequest span {
+  font-family: "Montserrat", sans-serif;
+  color: crimson;
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.userRequest img {
+  margin: 1rem auto;
+}
+
+.seasonMap {
+  display: flex;
+  flex-direction: row;
+}
+.seasonMap h4 {
+  color: crimson;
+}
+
+.containerList {
+  display: flex;
+  margin-left: 1rem auto;
+}
+.containerList h4 {
+  margin: 0rem 0.5rem 0rem 1rem;
+}
+
+.seasonMap button {
+  background-color: #1077dd;
+  border-radius: 50%;
+  border: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+}
+
+.footer h4 {
+  color: white;
+  background-color: #1077dd;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.footer button {
+  background-color: #1077dd;
+  border: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer button:hover {
+  background-color: rgb(255, 37, 37);
+}

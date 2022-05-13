@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 2rem;
+  width: 90%;
+  height: 75%;
+  padding: 1rem;
+  margin: 0rem 1rem;
+  flex-wrap: wrap;
+}
+.containerlink {
+  width: 30%;
+}
+
+.containerProps {
+  width: 65%;
+  margin: auto;
+}
+
+.containerProps p {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.image {
+  display: flex;
+  width: 150px;
+  height: 100px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.link {
+  justify-content: space-around;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(52, 52, 211, 0.788);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.cartel {
+  display: flex;
+  justify-content: center;
+}
